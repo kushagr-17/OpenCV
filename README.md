@@ -44,7 +44,7 @@ Cartoonification of image
 	cv2.imwrite() is used to store the cartoonified image in our system
 	cv2.imshow() is used to display the result in a separate window
 
-*For real-time capturing
+# For real-time capturing
 	cv2.VideoCapture(0) is used to capture video frame-by-frame through our in-built webcam. "0" typically represents the default 
 	camera
 	.read() captures a single frame from the webcam and returns two values : ret and frame
